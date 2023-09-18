@@ -2,9 +2,11 @@ body {
     background-color: #0097A7;
 
 }
-.header {
+#id1 {
+    color: aliceblue;
+}
+.main-header {
 text-align: center;
 font-size: 30px;
-font-style: italic;
-font-family: Georgia, 'Times New Roman', Times, serif;
+font-family: 'Mooli', sans-serif;
 }
