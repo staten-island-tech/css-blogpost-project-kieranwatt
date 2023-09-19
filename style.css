@@ -14,7 +14,7 @@ body {
    }
 
 .lovenote {
-    margin: 30px auto;
+    margin: 30px ;
     color: #C5CAE9;
     font-size: 30px;
     border: 5px solid #BDBDBD;
@@ -22,6 +22,7 @@ body {
     height: 400px;
     width: 400px;
     position: relative;
+    overflow: hidden;
 }
 
 .lovenotecover {
@@ -34,7 +35,7 @@ body {
     text-align: center;
     font-size: 25px;
     color: #C5CAE9;
-    position:absolute;
+    position:relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -63,9 +64,9 @@ body {
     font-size: 25px;
     color: #C5CAE9;
     position:absolute;
-    top: 125%;
-    left: 35%;
-    transform: translate(-20%, -80%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .trendy {
     margin: 30px auto;
